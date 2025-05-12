@@ -6,7 +6,7 @@ function App() {
     <>
       <section>
         <nav className="bg-[#ffed3b] w-full h-18 flex justify-around items-center">
-          <button className="bg-[#003cb3] w-48 h-8 text-white font-bold flex justify-center items-center">
+          <button className="bg-[#003cb3] rounded-md w-48 h-8 text-white font-bold flex justify-center items-center">
             <IoMenu className="text-3xl" />
             <h1>Ver categorías</h1>
           </button>

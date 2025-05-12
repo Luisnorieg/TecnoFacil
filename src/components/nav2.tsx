@@ -1,9 +1,9 @@
 import { MdPointOfSale } from "react-icons/md";
 import { MdOutlineSecurity } from "react-icons/md";
-import { CiCreditCard1 } from "react-icons/ci";
+import { FaCcMastercard } from "react-icons/fa";
 import { MdBackup } from "react-icons/md";
 import { FaStore } from "react-icons/fa6";
-import { IoMdMegaphone } from "react-icons/io";
+
 import { FaParachuteBox } from "react-icons/fa";
 function Nav2() {
   return (
@@ -13,29 +13,25 @@ function Nav2() {
           <div className="flex justify-between items-center w-full mx-12">
             <div className="flex justify-center">
               <ul className="flex flex-row gap-5 ">
-                <li className="flex justify-center items-center gap-2 ">
-                  <MdPointOfSale />
+                <li className="flex justify-center items-center gap-2 text-sm">
+                  <MdPointOfSale className="text-lg" />
                   Ofertas
                 </li>
-                <li className="flex justify-center items-center gap-2">
-                  <MdOutlineSecurity />
+                <li className="flex justify-center items-center gap-2 text-sm">
+                  <MdOutlineSecurity className="text-lg"/>
                   Seguro Fácil
                 </li>
-                <li className="flex justify-center items-center gap-2">
-                  <CiCreditCard1 />
+                <li className="flex justify-center items-center gap-2 text-sm">
+                  <FaCcMastercard className="text-lg"/>
                   Crédito
                 </li>
-                <li className="flex justify-center items-center gap-2">
-                  <MdBackup />
+                <li className="flex justify-center items-center gap-2 text-sm">
+                  <MdBackup className="text-lg"/>
                   Respaldo
                 </li>
-                <li className="flex justify-center items-center gap-2">
-                  <FaStore />
+                <li className="flex justify-center items-center gap-2 text-sm">
+                  <FaStore className="text-lg" />
                   Tiendas
-                </li>
-                <li className="flex justify-center items-center gap-2">
-                  <IoMdMegaphone />
-                  Promociones
                 </li>
               </ul>
             </div>
