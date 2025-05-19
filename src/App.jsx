@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import NavBar from './components/nav'
-import NavBar2 from './components/nav2' 
-import Carrucel from './components/carrusel'
-import Ofertas from './components/ofertas'
-import Carrucel2 from './components/carrusel2'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -11,11 +9,14 @@ function App() {
 
   return (
     <>
-      <NavBar/>
-      <NavBar2/>
-      <Carrucel/>
-      <Ofertas/>
-      <Carrucel2/>
+    <div className='Conteiner'>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </div>
+
+    
+      
     </>
   )
 }

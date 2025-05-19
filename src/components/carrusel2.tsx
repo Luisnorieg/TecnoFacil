@@ -4,9 +4,8 @@ import { FaShoppingCart } from "react-icons/fa";
 
 function Ofertas() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const productsPerContainer = 5; // Número de productos por contenedor
+    const productsPerContainer = 5; 
 
-    // Lista de productos con sus respectivas imágenes y datos
     const products = [
         {
             id: 1,
@@ -111,12 +110,11 @@ function Ofertas() {
     useEffect(() => {
         const interval = setInterval(() => {
             scrollRight();
-        }, 3000); // Cambia cada 3 segundos
+        }, 3000); 
 
-        return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+        return () => clearInterval(interval); 
     }, [currentIndex]);
 
-    // Agrupar productos en contenedores
     const groupedProducts = Array.from({ length: Math.ceil(totalItems / productsPerContainer) }, (_, groupIndex) =>
         products.slice(groupIndex * productsPerContainer, (groupIndex + 1) * productsPerContainer)
     );

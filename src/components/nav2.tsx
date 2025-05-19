@@ -9,7 +9,7 @@ function Nav2() {
   return (
     <>
       <section>
-        <nav className="bg-[#ffffff] h-14 w-full flex justify-start items-center ">
+        <nav className="bg-[#ffffff] h-14 w-full flex justify-start items-center fixed top-2 left-0 z-40">
           <div className="flex justify-between items-center w-full mx-12">
             <div className="flex justify-center">
               <ul className="flex flex-row gap-5 ">

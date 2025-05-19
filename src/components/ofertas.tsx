@@ -7,7 +7,7 @@ function Ofertas() {
                 <div>
                     <div className="flex justify-between items-center mx-4 my-12 ">
                         <span className="text-3xl"><strong>Ofertas para mamá</strong></span>
-                        <button className="flex justify-center gap-2 text-lg items-center border-2 h-12 w-42 rounded-lg">
+                        <button className="flex justify-center gap-2 text-lg items-center border-2 border-indigo-600 h-12 w-42 rounded-lg">
                             <IoBagRemoveSharp />
                             <p>Ver Más</p>
                         </button>
